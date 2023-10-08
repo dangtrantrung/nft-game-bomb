@@ -504,10 +504,10 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 pragma solidity ^0.8.1;
 
 
-contract KhoaPham_Token is ERC20{
+contract BOMB_Token is ERC20{
     
-    constructor() ERC20("KHOAPHAM TOKEN", "KPT"){
-        _mint(msg.sender, 100000000* 1000000000000000000);
+    constructor() ERC20("BOMB_TOKENxxx", "BOMBxxx"){
+        _mint(msg.sender, 10000000*10**18);
     }
-    
+
 }
